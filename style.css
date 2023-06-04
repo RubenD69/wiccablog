@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+header {
+    background-image: url(imagenes/noche.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: inline-flexbox;
+    align-items: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.menu .logo{
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffff
+}
+
+.menu .navbar ul li {
+    font-size: 18px;
+    padding: 20px;
+    color:white;
+    display: block;
+    
+}
+
+.menu .navbar ul li a:hover {
+    color: rebeccapurple;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+} 
+
+.header-content {
+    display: flex;
+}
+
+.content {
+    padding: 150px 150px 0px 0px;
+}
+
+.content h1 {
+    color: black;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.content p {
+    margin-top: 25px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: blueviolet(170, 177, 255, 0.3);
+    border: 1px solid #f5f5f5;
+    margin: 35px 10px 0px 0px;
+    padding: 15px 25px;
+    color: #f5f5f5;
+    border-radius: 25px;
+    
+}
+
+.btn-1:hover {
+    background-color: rgb(214, 208, 220);
+}
+
+.services {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service {
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0.3);
+}
+
+.service img {
+    margin-top: -50px;
+}
+
+.service h3 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: black;
+    font-size: 16px;
+}
+
+.Porfolio {
+    padding: 80px 0px;
+    text-align: center;
+    color: black;
+}
+
+.Porfolio h2 {
+    font-size: 55px;
+
+}
+
+.Porfolio img {
+    width: 350px;
+}
+
+.Porfolio-1 {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.Porfolio-1 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.Porfolio-1 p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.Porfolio-2 {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.Prfolio-2 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.Porfolio-2 p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: rgb(231, 216, 216);
+    color: rgb(15, 14, 15);
+}
+
+.btn-2:hover {
+    background-color: rgb(148, 113, 218);
+}
+
+footer {
+    padding: 200px 0px 30px 0px;
+    background-image: url(imagenes/);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-content {
+    display: flex;
+}
+
+.info-price {
+    padding: 35px;
+}
+
